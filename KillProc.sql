@@ -2,7 +2,7 @@
  The sproc receives database name as argumemt and kills all processes that is being used along with that database. 
  It can be useful when needed to restore a database while working on it
 */
--- usp_KillProc 'Case1'
+-- usp_KillProc 'NorthWind'
 CREATE PROC usp_KillProc
 	@DBName VARCHAR(100)
 AS
